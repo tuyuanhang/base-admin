@@ -24,7 +24,7 @@ public class CodeDOM {
         package_ = basePackage_ + StringUtil.camelCaseName(tableName).toLowerCase() + "\\";
         //System.getProperty("user.dir") 获取的是项目所在路径，如果我们是子项目，则需要添加一层路径
         basePath = System.getProperty("user.dir") + "\\src\\main\\java\\" + package_;
-        basePackage_ = "cn\\huanzi\\qch\\baseadmin\\";
+        basePackage_ = "cn\\barry\\tu\\baseadmin\\";
     }
 
     /**
