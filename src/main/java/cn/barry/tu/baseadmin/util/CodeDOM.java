@@ -528,11 +528,11 @@ public class CodeDOM {
         return tableName + " 后台代码生成完毕！";
     }
 
-//    public static void main(String[] args) {
-//        String[] tables = {"sys_user","sys_menu","sys_authority","sys_user_menu","sys_user_authority","sys_shortcut_menu","sys_setting"};
-//        for (String table : tables) {
-//            String msg = new CodeDOM(table).create();
-//            System.out.println(msg);
-//        }
-//    }
+    public static void main(String[] args) {
+        String[] tables = {"resource_vehicles", "resource_driver"};
+        for (String table : tables) {
+            String msg = new CodeDOM(table).create();
+            System.out.println(msg);
+        }
+    }
 }
